@@ -107,6 +107,7 @@
 			</Item>
 			<Item Name="Flat Img To 24 Bit.vi" Type="VI" URL="../Sources/_Helpers/Flat Img To 24 Bit.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="turbojpeg.dll" Type="Document" URL="../Sources/_Helpers/x64/turbojpeg.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
