@@ -12,10 +12,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Example Binary.vi" Type="VI" URL="../Examples/Example Binary.vi"/>
+			<Item Name="Example Grey.vi" Type="VI" URL="../Examples/Example Grey.vi"/>
 			<Item Name="Example LV.vi" Type="VI" URL="../Examples/Example LV.vi"/>
 		</Item>
-		<Item Name="Bits To Bytes.vi" Type="VI" URL="../Sources/_Helpers/Bits To Bytes.vi"/>
-		<Item Name="Bytes to Bits.vi" Type="VI" URL="../Sources/_Helpers/Bytes to Bits.vi"/>
 		<Item Name="LV Tiff.lvlib" Type="Library" URL="../Sources/LV Tiff.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -107,7 +106,6 @@
 			</Item>
 			<Item Name="Flat Img To 24 Bit.vi" Type="VI" URL="../Sources/_Helpers/Flat Img To 24 Bit.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="turbojpeg.dll" Type="Document" URL="../Sources/_Helpers/x64/turbojpeg.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

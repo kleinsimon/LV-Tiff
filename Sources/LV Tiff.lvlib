@@ -9,13 +9,14 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Baseline Header To Tags.vi" Type="VI" URL="../_Helpers/Baseline Header To Tags.vi"/>
-		<Item Name="Compress Jpeg.vi" Type="VI" URL="../_Helpers/Compress Jpeg.vi"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Concat 1D Variant Array.vi" Type="VI" URL="../_Helpers/Concat 1D Variant Array.vi"/>
 		<Item Name="Corece To Tiff Type.vi" Type="VI" URL="../_Helpers/Corece To Tiff Type.vi"/>
 		<Item Name="Ends With.vi" Type="VI" URL="../_Helpers/Ends With.vi"/>
+		<Item Name="From JPEG Stream.vi" Type="VI" URL="../_Helpers/From JPEG Stream.vi"/>
 		<Item Name="Generate Tiff Tags.vi" Type="VI" URL="../_Helpers/Generate Tiff Tags.vi"/>
 		<Item Name="Get Baseline Page Info.vi" Type="VI" URL="../_Helpers/Get Baseline Page Info.vi"/>
+		<Item Name="Baseline Header To Tags.vi" Type="VI" URL="../_Helpers/Baseline Header To Tags.vi"/>
 		<Item Name="Get Datatype Bytes.vi" Type="VI" URL="../_Helpers/Get Datatype Bytes.vi"/>
 		<Item Name="Get Tag.vi" Type="VI" URL="../_Helpers/Get Tag.vi"/>
 		<Item Name="Make Details Tags.vi" Type="VI" URL="../_Helpers/Make Details Tags.vi"/>
@@ -24,6 +25,7 @@
 		<Item Name="Read Image Page.vi" Type="VI" URL="../_Helpers/Read Image Page.vi"/>
 		<Item Name="Read Page Info.vi" Type="VI" URL="../_Helpers/Read Page Info.vi"/>
 		<Item Name="Read Page.vi" Type="VI" URL="../_Helpers/Read Page.vi"/>
+		<Item Name="To JPEG Stream.vi" Type="VI" URL="../_Helpers/To JPEG Stream.vi"/>
 		<Item Name="To Rational.vi" Type="VI" URL="../_Helpers/To Rational.vi"/>
 		<Item Name="To SRational.vi" Type="VI" URL="../_Helpers/To SRational.vi"/>
 		<Item Name="Type Dict LV.vi" Type="VI" URL="../_Helpers/Type Dict LV.vi"/>
@@ -33,31 +35,20 @@
 		<Item Name="Write Page Data.vi" Type="VI" URL="../_Helpers/Write Page Data.vi"/>
 		<Item Name="Write Page.vi" Type="VI" URL="../_Helpers/Write Page.vi"/>
 		<Item Name="Write Variant Page Data.vi" Type="VI" URL="../_Helpers/Write Variant Page Data.vi"/>
+		<Item Name="Bits To Bytes.vi" Type="VI" URL="../_Helpers/Bits To Bytes.vi"/>
+		<Item Name="Bytes to Bits.vi" Type="VI" URL="../_Helpers/Bytes to Bits.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
-		<Item Name="3D Array to RGBA.vi" Type="VI" URL="../_Helpers/3D Array to RGBA.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="3D Array to RGBA.vi" Type="VI" URL="../_Helpers/3D Array to RGBA.vi"/>
 		<Item Name="Baseline Tags 1.ctl" Type="VI" URL="../_Helpers/Baseline Tags 1.ctl"/>
-		<Item Name="From JPEG Stream.vi" Type="VI" URL="../_Helpers/From JPEG Stream.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="jpeg62.dll" Type="Document" URL="../_Helpers/x64/jpeg62.dll"/>
 		<Item Name="Page Writer Settings.ctl" Type="VI" URL="../_Helpers/Page Writer Settings.ctl"/>
-		<Item Name="RGBA to 3D Array.vi" Type="VI" URL="../_Helpers/RGBA to 3D Array.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
+		<Item Name="RGBA to 3D Array.vi" Type="VI" URL="../_Helpers/RGBA to 3D Array.vi"/>
 		<Item Name="Tiff Data Type.ctl" Type="VI" URL="../_Helpers/Tiff Data Type.ctl"/>
 		<Item Name="Tiff Datatype Bytes.ctl" Type="VI" URL="../_Helpers/Tiff Datatype Bytes.ctl"/>
 		<Item Name="Tiff Page Details.ctl" Type="VI" URL="../_Helpers/Tiff Page Details.ctl"/>
 		<Item Name="Tiff Tag.ctl" Type="VI" URL="../_Helpers/Tiff Tag.ctl"/>
-		<Item Name="Tiff Tags.ctl" Type="VI" URL="../_Helpers/Tiff Tags.ctl">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="To JPEG Stream.vi" Type="VI" URL="../_Helpers/To JPEG Stream.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="turbojpeg.dll" Type="Document" URL="../_Helpers/x64/turbojpeg.dll"/>
+		<Item Name="Tiff Tags.ctl" Type="VI" URL="../_Helpers/Tiff Tags.ctl"/>
 	</Item>
 	<Item Name="TIFF Reader.lvclass" Type="LVClass" URL="../TIFF Reader/TIFF Reader.lvclass"/>
 	<Item Name="TIFF Writer.lvclass" Type="LVClass" URL="../TIFF Writer/TIFF Writer.lvclass"/>
