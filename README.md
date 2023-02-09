@@ -8,7 +8,7 @@ Download the .vip file from the latest release under [Releases](https://github.c
 - Raw Data 2xN 
   - 1 / 8 / 16 / 32 / 64 bit signed and unsigned integer
   - Raw floating point in 32 and 64 bit
-  - LV-Image
+  - LV-Image (as 2x3 RGB Image)
 - Compression
   - Deflate (zip)
   - jpeg
