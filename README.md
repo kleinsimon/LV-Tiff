@@ -1,6 +1,9 @@
 # LV Tiff
  A native TIFF reader and writer for LabVIEW.
  
+# Installation
+Download the .vip file from the latest release under [Releases](https://github.com/kleinsimon/LV-Tiff/releases). Install it using VIPM.
+ 
 # Features
 - Raw Data 2xN 
   - 1 / 8 / 16 / 32 / 64 bit signed and unsigned integer
