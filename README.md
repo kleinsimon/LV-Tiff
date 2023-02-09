@@ -5,10 +5,10 @@
 Download the .vip file from the latest release under [Releases](https://github.com/kleinsimon/LV-Tiff/releases). Install it using VIPM.
  
 # Features
-- Raw Data 2xN 
+- Raw Data WxHxN 
   - 1 / 8 / 16 / 32 / 64 bit signed and unsigned integer
   - Raw floating point in 32 and 64 bit
-  - LV-Image (as 2x3 RGB Image)
+  - LV-Image (as WxHx3 RGB Image)
 - Compression
   - Deflate (zip)
   - jpeg
