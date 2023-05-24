@@ -15,6 +15,7 @@
 		<Item Name="Ends With.vi" Type="VI" URL="../_Helpers/Ends With.vi"/>
 		<Item Name="From JPEG Stream.vi" Type="VI" URL="../_Helpers/From JPEG Stream.vi"/>
 		<Item Name="Generate Tiff Tags.vi" Type="VI" URL="../_Helpers/Generate Tiff Tags.vi"/>
+		<Item Name="Flatten Variant Bitness.vi" Type="VI" URL="../_Helpers/Flatten Variant Bitness.vi"/>
 		<Item Name="Get Baseline Page Info.vi" Type="VI" URL="../_Helpers/Get Baseline Page Info.vi"/>
 		<Item Name="Baseline Header To Tags.vi" Type="VI" URL="../_Helpers/Baseline Header To Tags.vi"/>
 		<Item Name="Get Datatype Bytes.vi" Type="VI" URL="../_Helpers/Get Datatype Bytes.vi"/>
