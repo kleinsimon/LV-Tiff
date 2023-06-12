@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-03-23 12:06:25" Modified_Date="2023-05-24 13:41:16" Creator="KLEINS" Comments="" ID="e18c8e44df9da3f6f66ace576dd1068f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-03-23 12:06:25" Modified_Date="2023-06-12 17:09:26" Creator="KLEINS" Comments="" ID="a0676ab66f0fe2c7f8a43e9093c3b6b6">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_LV_Tiff</Package_File_Name>
-    <Library_Version>0.1.2.2</Library_Version>
+    <Library_Version>0.1.3.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -36,7 +36,7 @@
       <Copyright>Copyright (c) 2023, Simon Klein</Copyright>
       <Packager>Simon Klein</Packager>
       <URL>https://github.com/kleinsimon/LV-Tiff</URL>
-      <Release_Notes>added tiff writer (greyscale only)</Release_Notes>
+      <Release_Notes>hopefully fixed bitness errors when writing tags</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -362,7 +362,7 @@
         <Path>Sources\TIFF Writer\Write LV Image.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>47B039FF6F4AD8C5B2466A0BACCC0B92</GUID>
+      <GUID>6EFAEE55E8F31CD15983047286B8B4F8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
