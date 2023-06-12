@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-03-23 12:06:25" Modified_Date="2023-02-05 16:33:05" Creator="KLEINS" Comments="" ID="a615a8eda59fc87a34adb884a4e8e980">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-03-23 12:06:25" Modified_Date="2023-05-24 13:41:16" Creator="KLEINS" Comments="" ID="e18c8e44df9da3f6f66ace576dd1068f">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_LV_Tiff</Package_File_Name>
-    <Library_Version>0.1.1.2</Library_Version>
+    <Library_Version>0.1.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -362,7 +362,7 @@
         <Path>Sources\TIFF Writer\Write LV Image.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6E811C6CDBA445C22E2160A36BADD948</GUID>
+      <GUID>47B039FF6F4AD8C5B2466A0BACCC0B92</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
